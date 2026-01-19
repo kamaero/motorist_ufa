@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*?*$
+Disallow: /search/
+
+Sitemap: https://www.motorist-ufa.ru/sitemap.xml
+
+# Разрешаем индексацию основных файлов
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+
+# Географическая информация
+User-agent: Yandex
+Host: https://www.motorist-ufa.ru
+
+# Приоритет индексации для поисковых систем
+Crawl-delay: 1
